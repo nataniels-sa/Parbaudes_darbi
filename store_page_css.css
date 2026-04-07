@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    background-color: #3A6EA5;
+}
+
+h2{
+    font-family: "Averia Libre";
+    color: #191919;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    width: 90%;
+    height: 100px;
+    background-color:#E6E8E6;
+    margin: 30px;
+    border: solid 5px #553A41;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    right: 300px;
+    padding-inline: 10px;
+}
+
+nav h2{
+    margin: 20px;
+}
+
+.logo img{
+    height: 350px;
+    width: auto;
+    position: absolute;
+    left: 16px;
+    top: -28px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 1000px;
+    justify-self: center;
+    background-color: #E6E8E6;
+    border: solid 5px #553A41;
+}
