@@ -9,10 +9,36 @@ h2{
     font-size: 30px;
 }
 
+h2:hover{
+    color: #BB7E8C;
+    transform-origin: left bottom;
+    transform: rotate(-10deg);
+}
+
+h3{
+    font-family: "Averia Libre";
+    color: #3A6EA5;
+    font-size: 20px;
+}
+
 p{
     font-family: "Averia Libre";
     color: #191919;
     font-size: 20px;
+    font-weight: bold;
+}
+
+.strike{
+    text-decoration: line-through;
+    font-size: 25px;
+    color: #191919;
+    font-weight: bold;
+}
+
+.rotate{
+    color: #BB7E8C;
+    transform: rotate(-15deg);
+    font-size: 25px;
 }
 
 a{
@@ -79,6 +105,10 @@ form{
     font-weight: bold;
 }
 
+#search:focus{
+    border: solid 3px #553A41;
+}
+
 form button{
     display: flex;
     justify-content: center;
@@ -114,11 +144,42 @@ form img{
     color: #191919;
 }
 
+
+
 option{
     font-size: large;
     font-family: Averia Libre;
     font-weight: bold;
     color: #191919;
+}
+
+
+
+.preces{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 100px;
+}
+
+.preces img{
+    height: 200px;
+    width: 200px;
+}
+
+.image{
+    height: 240px;
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 150px;
+    text-align: center;
+    border: solid 10px #553A41;
+    margin: 10px;
+    background-color: #E6E8E6;
+}
+
+.image:hover{
+    transform: scale(120%);
+    box-shadow: 3px 3px 5px #BB7E8C;
 }
 
 footer{
