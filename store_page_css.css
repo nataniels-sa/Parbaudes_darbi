@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    background-color: #3A6EA5;
+}
+
+h2{
+    font-family: "Averia Libre";
+    color: #191919;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Averia Libre";
+    color: #191919;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    width: 90%;
+    height: 100px;
+    background-color:#E6E8E6;
+    margin: 30px;
+    border: solid 5px #553A41;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    right: 300px;
+    padding-inline: 10px;
+}
+
+nav h2{
+    margin: 20px;
+}
+
+.logo img{
+    height: 150px;
+    width: auto;
+    padding-top: 15px;
+    padding-left: 75px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: fit-content;
+    justify-self: center;
+    background-color: #E6E8E6;
+    border: solid 5px #553A41;
+    padding: 40px;
+}
+
+form{
+    display: flex;
+}
+
+#search{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 90px;
+    height: 50px;
+    width: 70%;
+    padding-inline: 10px;
+    font-size: large;
+    border: solid 2px #553A41;
+    border-radius: 2px;
+    font-family: Averia Libre;
+    font-weight: bold;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px -2px;
+    height: 50px;
+    width: 80px;
+    background-color: #E6E8E6;
+    border: solid 2px #553A41;
+    border-radius: 2px;
+}
+
+form img{
+    height: 20px;
+    width: auto;
+}
+
+#form2{
+    position: absolute;
+    right: 280px;
+    top: 215px;
+    height: 46px;
+    border: solid 2px #553A41;
+    border-radius: 2px;
+}
+
+#filter{
+    font-size: large;
+    border: transparent;
+    padding-inline: 10px;
+    font-family: Averia Libre;
+    font-weight: bold;
+    color: #191919;
+}
+
+option{
+    font-size: large;
+    font-family: Averia Libre;
+    font-weight: bold;
+    color: #191919;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 90%;
+    background-color: #E6E8E6;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #BB7E8C;
+    margin-top: 30px;
+    position: absolute;
+    right: 95px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 100px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-inline: 100px;
+}
