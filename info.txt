@@ -7,4 +7,3 @@ Krāsu palete:
     #E6E8E6
     #BB7E8C
     #191919
-
