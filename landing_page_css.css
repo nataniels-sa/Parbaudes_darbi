@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+    background-color: #3A6EA5;
+}
+
+h1{
+    font-family: "Averia Libre";
+    color: #191919;
+    font-size: 40px;
+}
+
+h2{ 
+    font-family: "Averia Libre";
+    color: #191919;
+    font-size: 30px;
+}
+
+h2:hover{
+    color: #BB7E8C;
+    transform-origin: left bottom;
+    transform: rotate(-10deg);
+}
+
+h3{
+    font-family: "Averia Libre";
+    color: #3A6EA5;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Averia Libre";
+    color: #191919;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+hr{
+    border: solid 2px #191919;
+    background-color: #191919;
+    width: 100%;
+    height: 1px;
+    color: #191919;
+}
+
+.strike{
+    text-decoration: line-through;
+    font-size: 25px;
+    color: #191919;
+    font-weight: bold;
+}
+
+.rotate{
+    color: #BB7E8C;
+    transform: rotate(-15deg);
+    font-size: 25px;
+}
+
+.in_line{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    width: 90%;
+    height: 100px;
+    background-color:#E6E8E6;
+    margin: 30px;
+    border: solid 5px #553A41;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    right: 300px;
+    padding-inline: 10px;
+}
+
+nav h2{
+    margin: 20px;
+}
+
+.logo img{
+    height: 150px;
+    width: auto;
+    padding-top: 15px;
+    padding-left: 75px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero img{
+    width: 90%;
+    height: 740px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    scale: 150%;
+    border: solid 5px #553A41;
+    border-radius: 20px;
+    color: #3A6EA5;
+    background-color: #BB7E8C;
+    font-family: "Averia Libre";
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    left: 875px;
+    top: 720px;
+}
+
+button:hover{
+    transform: scale(120%);
+    background-color: #3A6EA5;
+    color: #BB7E8C;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.atlaides{
+    width: 84.4%;
+    justify-self: center;
+    background-color: #E6E8E6;
+    border: solid 5px #553A41;
+    margin-top: 10px;
+    padding-inline: 50px;
+}
+
+.atlaides{
+    display: flex;
+    flex-direction: column;
+}
+
+.atlaides img{
+    height: 200px;
+    width: 200px;
+}
+
+.image{
+    grid-row: 2;
+    height: 220px;
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 150px;
+    text-align: center;
+    border: solid 10px #553A41;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E6E8E6;
+    transition-duration: 0.5s;
+}
+
+.image:hover{
+    transform: scale(120%);
+    box-shadow: 3px 3px 5px #BB7E8C;
+}
+
+.jaunumi{
+    display: flex;
+    flex-direction: column;
+    width: 84.4%;
+    justify-self: center;
+    background-color: #E6E8E6;
+    border: solid 5px #553A41;
+    margin-top: 10px;
+    padding-inline: 50px;
+}
+
+.jaunumi img{
+    height: 200px;
+    width: 200px;
+}
+
+.jaunumi .image{
+    grid-row: 2;
+    height: 150px;
+    width: 200px;
+    padding: 15px;
+    padding-bottom: 150px;
+    text-align: center;
+    border: solid 10px #553A41;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E6E8E6;
+}
+
+.jaunumi .image:hover{
+    transform: scale(120%);
+    box-shadow: 3px 3px 5px #BB7E8C;
+}
+
+.price{
+    color: #191919;
+    font-family: "Averia Libre";
+    font-weight: 900;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 84.4%;
+    justify-self: center;
+    background-color: #E6E8E6;
+    border: solid 5px #553A41;
+    margin-top: 10px;
+    padding-inline: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    width: 90%;
+    background-color: #BB7E8C;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #553A41;
+    margin-top: 30px;
+    position: absolute;
+    right: 95px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 100px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-inline: 100px;
+}

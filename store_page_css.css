@@ -103,10 +103,12 @@ form{
     border-radius: 2px;
     font-family: Averia Libre;
     font-weight: bold;
+    outline: none;
 }
 
 #search:focus{
     border: solid 3px #553A41;
+    color: #3A6EA5;
 }
 
 form button{
@@ -121,10 +123,17 @@ form button{
     border-radius: 2px;
 }
 
+form button:hover, img:hover{
+    background-color: #BB7E8C;
+    transform: scale(110%);
+}
+
 form img{
     height: 20px;
     width: auto;
 }
+
+
 
 #form2{
     position: absolute;
@@ -135,6 +144,10 @@ form img{
     border-radius: 2px;
 }
 
+#form2:hover{
+    transform: scale(110%);
+}
+
 #filter{
     font-size: large;
     border: transparent;
@@ -142,9 +155,13 @@ form img{
     font-family: Averia Libre;
     font-weight: bold;
     color: #191919;
+    outline: none;
 }
 
-
+#filter:hover{
+    color: #3A6EA5;
+    font-size: larger;
+}
 
 option{
     font-size: large;
@@ -152,8 +169,6 @@ option{
     font-weight: bold;
     color: #191919;
 }
-
-
 
 .preces{
     display: grid;
@@ -175,11 +190,12 @@ option{
     border: solid 10px #553A41;
     margin: 10px;
     background-color: #E6E8E6;
+    transition-duration: 0.5s;
 }
 
 .image:hover{
     transform: scale(120%);
-    box-shadow: 3px 3px 5px #BB7E8C;
+    box-shadow: 3px 3px 0px #BB7E8C;
 }
 
 footer{
