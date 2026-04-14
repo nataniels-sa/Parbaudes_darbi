@@ -123,7 +123,7 @@ form button{
     border-radius: 2px;
 }
 
-form button:hover, img:hover{
+form button:hover{
     background-color: #BB7E8C;
     transform: scale(110%);
 }
