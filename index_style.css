@@ -103,9 +103,17 @@ nav h2{
     align-items: center;
 }
 
-.hero img{
+.hero{
     width: 90%;
     height: 740px;
+    background-image: url(images/Capture2.PNG);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
@@ -120,8 +128,7 @@ button{
     font-size: 25px;
     font-weight: bold;
     position: absolute;
-    left: 875px;
-    top: 720px;
+    z-index: 1;
 }
 
 button:hover{
