@@ -108,6 +108,7 @@ nav h2{
     width: 100%;
     height: 340px;
     background-color: #BB7E8C;
+    background-image: linear-gradient(to right, #BB7E8C, #E6E8E6);
 }
 
 button{
@@ -120,7 +121,6 @@ button{
     font-family: "Averia Libre";
     font-size: 40px;
     font-weight: bold;
-    position: absolute;
     z-index: 1;
     transform-origin: center;
 }
