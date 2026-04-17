@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: #3A6EA5;
 }
 
@@ -72,7 +74,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     justify-self: center;
-    width: 90%;
+    width: 100%;
     height: 100px;
     background-color:#E6E8E6;
     margin: 30px;
@@ -83,12 +85,12 @@ nav{
     display: flex;
     position: absolute;
     right: 300px;
-    padding-inline: 10px;
 }
 
 nav h2{
     margin: 20px;
 }
+
 
 .logo img{
     height: 150px;
@@ -100,41 +102,33 @@ nav h2{
 .hero{
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.hero{
-    width: 90%;
-    height: 740px;
-    background-image: url(images/Capture2.PNG);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
+    height: 340px;
+    background-color: #BB7E8C;
 }
 
 button{
-    height: 50px;
-    width: 150px;
-    scale: 150%;
+    height: 75px;
+    width: 250px;
     border: solid 5px #553A41;
     border-radius: 20px;
     color: #3A6EA5;
-    background-color: #BB7E8C;
+    background-color: #E6E8E6;
     font-family: "Averia Libre";
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
     position: absolute;
     z-index: 1;
+    transform-origin: center;
 }
 
 button:hover{
     transform: scale(120%);
     background-color: #3A6EA5;
-    color: #BB7E8C;
+    color: #E6E8E6;
 }
 
 .title{
@@ -149,12 +143,11 @@ button:hover{
 }
 
 .atlaides{
-    width: 84.4%;
+    width: 100%;
     justify-self: center;
     background-color: #E6E8E6;
     border: solid 5px #553A41;
     margin-top: 10px;
-    padding-inline: 50px;
 }
 
 .atlaides{
